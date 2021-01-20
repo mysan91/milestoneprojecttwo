@@ -67,16 +67,14 @@ body {
 
 .content {
     position: relative;
-    background-color: blue;
     width: 70vw;
-    min-height: 100vh;
+    min-height: 89vh;
     margin: 0 auto;
    
 }
 
 
 .header {
-    background-color: blue;
     height: 50px;
     position: relative;
     border-bottom: 2px yellow;
@@ -85,12 +83,13 @@ body {
 
 .timer {
     left: 0;
-    padding: 0 30px 5px 0;
+    padding: 0 80px 5px 0;
+    color: yellow; 
 }
 
-.timer {
+.Moves {
     right: 0;
-    padding: 0 30px 5px 0;
+    padding: 0 60px 5px 0;
 }
 
 .btn-warning {
