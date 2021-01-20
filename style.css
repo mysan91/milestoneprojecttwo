@@ -67,42 +67,15 @@ body {
 
   /*--------Scoreboard-----*/
 
-  .score-panel {
-    margin-bottom: 20px;
-    align-items: center;
-    background-color: white;
-    margin-right: 150px;
-  }
+.score-panel {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  margin: 5px auto 5px auto;
+  perspective: 1000px;
+}
+ 
   
-  .score-panel .stars {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    margin: 0 5px 0 0;
-  }
-  
-  .score-panel .stars li {
-    list-style: none;
-    display: inline-block;
-  }
-  
-  .score-panel .restart {
-    float: right;
-    cursor: pointer;
-  }
-  
-  .fa-star {
-    color: yellow;
-  }
-  
-  .timer {
-    display: inline-block;
-    margin: 0 1rem;
-  }
-  
-  .buttonsection  {
-    align-items: ;
-  }
 
 
 
