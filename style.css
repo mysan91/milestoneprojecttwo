@@ -82,17 +82,17 @@ body {
 
 
 #timer {
-    right: 20px;
+    right: 5px;
     padding: 0 25px 5px 0;
 }
 
 #moves {
-    right: 20px;
+    right: 5px;
     padding:  0 25px 5px 0;
 }
 
 #btn-warning {
-    left: 50px;
+    left: 10px;
     padding:  0 25px 5px 0;
 }
 
@@ -267,8 +267,9 @@ h5 {
 @media (min-width: 414px) {
 
     .content {
-        width: 50vw;
-        heigt: 50vw;
+        width: 65vw;
+        margin: 5px;
+        
     }
 }
 
@@ -276,16 +277,16 @@ h5 {
 @media (min-width: 768px) {
 
     .content {
-        width: 50vw;
-        heigt: 50vw;
+        width: 80vw;
+         margin: 5px;
     }
 }
 
 @media (min-width: 1024px) {
 
     .content {
-       width: 50vw;
-        heigt: 50vw;
+       width: 90vw;
+      
     }
 }
 
