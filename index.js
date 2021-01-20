@@ -102,15 +102,11 @@ function startTimer() {
 };
 
 // New game 
-function clearBoard(game)
+function clearBoard(memorygame)
     {
         //Remove all remaining cards from here
-        document.getElementById(game).innerHTML = "";
-        //document.getElementById(cards).innerHTML = "";
-        //document.getElementById(card).innerHTML = "";
-
-
-
+        document.getElementById(memorygame).innerHTML = "";
+     
     }
 
 function newGame()
