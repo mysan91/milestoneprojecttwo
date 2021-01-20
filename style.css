@@ -262,6 +262,33 @@ h5 {
 }
 
 
+  /*---------------------------- Media for iphone 7/8/9 and Ipad and ipad pro----------------------*/ 
+
+
+@media (min-width: 414px) {
+
+    .content {
+        width: 50vw;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    .content {
+        width: 75vw;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .content {
+        width: 95vw;
+    }
+}
+
+
+
 
 
 
