@@ -82,17 +82,17 @@ body {
 
 
 #timer {
-    right: 0;
+    right: 20px;
     padding: 0 25px 5px 0;
 }
 
 #moves {
-    right: 0;
+    right: 20px;
     padding:  0 25px 5px 0;
 }
 
 #btn-warning {
-    left: 0;
+    left: 50px;
     padding:  0 25px 5px 0;
 }
 
@@ -268,6 +268,7 @@ h5 {
 
     .content {
         width: 50vw;
+        heigt: 50vw;
     }
 }
 
@@ -275,14 +276,16 @@ h5 {
 @media (min-width: 768px) {
 
     .content {
-        width: 75vw;
+        width: 50vw;
+        heigt: 50vw;
     }
 }
 
 @media (min-width: 1024px) {
 
     .content {
-        width: 95vw;
+       width: 50vw;
+        heigt: 50vw;
     }
 }
 
