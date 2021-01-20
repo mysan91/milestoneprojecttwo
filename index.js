@@ -72,15 +72,6 @@ cards.forEach(card => card.addEventListener('click', flipCard));
 
 
 
-// Move counter function
-let moves = 0;
-let counter = document.querySelector('.moves');
-function moveCounter() {
-    moves++;
-    counter.innerHTML = moves + ' moves'; 
-};
-
-
 
 
 
