@@ -189,7 +189,7 @@ h4 {
 /*----------The get back button on the how to website.-----------*/
 
 
-button {
+.button1 {
   margin: auto;
   cursor: pointer;
   position: relative;
@@ -208,7 +208,7 @@ button {
 
 }
 
-button:after {
+.button1:after {
   position: absolute;
   top: 0;
   left: 0;
@@ -218,12 +218,12 @@ button:after {
   transition: 0.5s;
 }
 
-button:hover {
+.button1:hover {
   transform: scale(1.6, 1.6);
   color: yellow;
 }
 
-button:hover:after {
+.button1:hover:after {
   transform: translateY(0);
 }
 
