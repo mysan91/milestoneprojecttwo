@@ -85,8 +85,7 @@ float:right;
 }
 
 h5 {
-text-align:center;
-
+  text-align: center;
 }
   
 
@@ -195,6 +194,9 @@ h4 {
   color: yellow;
   width: 50%;
   height: 50%;
+  float:right;
+  position: relative;
+   perspective: 1000px;
 }
 
 
