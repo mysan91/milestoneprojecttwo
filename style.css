@@ -76,22 +76,22 @@ body {
 
 
 #header {
-    height: 40px;
+    height: 50px;
     position: relative;
 }
 
 
-#timer {
+.timer {
     right: 5px;
     padding: 0 25px 5px 0;
 }
 
-#moves {
+.moves {
     right: 5px;
     padding:  0 25px 5px 0;
 }
 
-#btn-warning {
+.btn-warning {
     left: 10px;
     padding:  0 25px 5px 0;
 }
@@ -267,7 +267,8 @@ h5 {
 @media (max-width: 736px) {
 
     .content {
-        width: 70vw;
+        width: 80vw;
+        height: 75vw;
         margin: 5px;
         
     }
@@ -277,7 +278,8 @@ h5 {
 @media (max-width: 1024px) {
 
     .content {
-        width: 80vw;
+        width: 90vw;
+        height: 85vw;
          margin: 5px;
     }
 }
@@ -285,7 +287,9 @@ h5 {
 @media (max-width: 1366px) {
 
     .content {
-       width: 90vw;
+       width: 95vw;
+        height: 90vw;
+        margin: 5px
       
     }
 }
