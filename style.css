@@ -82,19 +82,20 @@ body {
 
 .timer {
     float: right;
-    padding: 20px;
+    padding: 60px;
     color: yellow; 
 }
 
-.Moves {
-    right: 0;
-    position:relative;
-    padding: 0 50px 5px 0;
+.moves {
+   float: right;
+    padding: 60px;
+    color: yellow; 
 }
 
-.btn-btn-warning {
-    margin-top: 5px;
-    float: left; 
+.btn-warning {
+    float: left;
+    padding: 60px;
+    color: yellow; 
 }
 
 
