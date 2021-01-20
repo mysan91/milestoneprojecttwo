@@ -13,17 +13,19 @@ I like memory games myself and wanted to create a game with themes that I like.
 
 I started by figuring out how I wanted the game to be structured and what different levels that would be included.
 
-Since I myself prefer to be able to choose which level I want at each time I drive, I chose to have a menu where you can choose which level suits you best.
+Since I myself prefer to be able to choose which the theme and make the game appealing i chose to have 3 different themes all on the same level. 
 
+Each game has 30 cards with different pictures and a different background.
 
-I decided to start with 3 different levels. The first level is with 16 cards and the second level is with 24 cards and the last is with 36 cards.
+I started by making the index.html page and after i went for the first theme and chosing the icons to use in the game. 
+After i did the second 2 themes and made all the visuall work and also the pictures. 
 
+After the html and css park i started working with the javascript parts. Bit by bit and testing so the code worked. 
 
-The first level is done with different programming languages and the second was with different Starwar characters. And the last one was with icons that I downloaded from Iconfinder.com
+When the code worked i added a scoreboard and the correct javascript code to it. 
 
+After this process i did the media so the game can be played on different screens. 
 
-I started by building the first page and also the page with How to play the game. Then I started with level 1 and chose the pictures that would be included.
-Then I built the structure of the game and made sure the page was responsive. Then I went on and did the same at level 2 and 3.
 
 ## UX
 
@@ -99,7 +101,7 @@ I have been coding the whole project in visual studios due to some problems with
 
 
 ## Deployment 
-The fallowing steps i made to deploy the project on to the github page.
+The following steps i made to deploy the project on to the github page.
 I logged in to my github account and then selected my repository. 
 I then chosed my project repostory mysan91/Milestoneprojectone and then at the top there is a setting button that i clicked. 
 Then i scrolled down to the Github Pages and under the source section i clicked on the NONE and in the dropdown i selected Master and then clicked the save button. 
@@ -107,6 +109,19 @@ The page did refresh and i got message that my page is published at https://mysa
 
 
 ## Credits
+
+for the icons in the game. 
 https://www.iconfinder.com/ 
 
 
+Youtube Tutorial for how do build a javascript game. 
+
+https://www.youtube.com/watch?v=ZniVgo8U7ek
+
+https://www.youtube.com/watch?v=tjyDOHzKN0w
+
+For the wallpapers
+https://unsplash.com/wallpapers
+
+FOr help when i got stuck and also to see how other people solved the memory game.
+https://stackoverflow.com/
