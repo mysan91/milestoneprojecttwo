@@ -39,7 +39,7 @@ body {
   }
 
   #level3 {
-    background-color: green;
+    background-image: url("https://raw.githubusercontent.com/mysan91/milestoneprojecttwo/master/images/supermario/wallpaper.png");
     background-repeat: no-repeat;
     display: flex; 
   }
