@@ -22,7 +22,7 @@ After i did the second 2 themes and made all the visuall work and also the pictu
 
 After the html and css park i started working with the javascript parts. Bit by bit and testing so the code worked. 
 
-When the code worked i added a scoreboard and the correct javascript code to it. 
+When the code worked i added a header so you can start a new game or go back to the main menu and change theme.
 
 After this process i did the media so the game can be played on different screens. 
 
@@ -43,19 +43,13 @@ As a user, I want a simple and clean looking website.
 
 As a user, I want an easy to navigate website. 
 
-As a user, I want to be able to use it on desktop, tablet and mobile devices.
-
-As a user, I want to see how many moves i have made.
-
-As A user, I want to have a timer when playing the game. 
+As a user, I want to be able to use it on desktop, tablet like ipad and ipad pro. 
 
 As a user, I want to be able to restart the game.
 
-As a user, I want to be able to go to main meny is i dont like the game or want to change. 
+As a user, I want to be able to go to main menu if i dont like the game or want to change theme. 
 
-As a user, I want a poput when the game is done to see the scores. 
-
-As a user, I want good content and good pictures. 
+As a user, I want good content and good pictures. (star wars) 
 
 As a user, I want simple instructions how to play the game. 
 
@@ -73,8 +67,7 @@ As a user, I want to have fun.
 
 ### User Requirements 
 * It has to be fun 
-* Possibility to see how many moves you made during the game.  
-* Possibility to see how much time spent on each game.
+* Possibility to go to main menu in the different themes.  
 * Easy to navigate.
 * Having a good structure.
 * Visually appealing. 
@@ -109,8 +102,10 @@ As a user, I want to have fun.
  ###### Features that will be implemented in the future: 
  * More levels of gaming, maby a easy, medium and hard game. 
   * A scoreboard on the highest score
+  * A moves counter with star rating.
+  * A timer to tell me how fast i solved the memory.
   * Contact details is there is an issue on the game or changes that users would see. 
-  * Star rating of 5 start to show how good or bad you did on the game. 
+
 
 ## Technologies used 
 
@@ -126,6 +121,8 @@ As a user, I want to have fun.
 * Gitpod
 * Github
 * Visual studios
+* https://jigsaw.w3.org/css-validator/ 
+* 
 
 
 
@@ -136,6 +133,11 @@ which made it difficult to work with.
 There was a big problem with the commit function and it ended up that I got help with it and have saved the code in the manual mode on github.
 And then i started a new repo and tried to copy the code from the first repo that dident commit. And it now works better. 
 I created the program in Visual studios then I have also used gitpod as best I can, partly for troubleshooting the code.
+
+when testing the Css code i used https://jigsaw.w3.org/css-validator/ and two errors accured. I did have a unvalid class on one of the buttons. The error was fixed. 
+
+For testing the HTML code i got some errors when i was able to get into gitpod. The errors that came up was a few div end tags missing. 
+Those errors was fixed. 
 
 
 
@@ -149,7 +151,8 @@ I created the program in Visual studios then I have also used gitpod as best I c
 
 * Hp laptop
 * Ipad 
-* Iphone 7/8/9 
+* Ipad pro 
+* 28 inch samsung screen.
 
 
 
