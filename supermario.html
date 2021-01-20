@@ -6,7 +6,7 @@
     <title>Level 1</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+   
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
@@ -197,15 +197,42 @@
 </section>
 
 
-    <section class="buttonsection">
+   <section class="buttonsection">
+    
+<!-----Button to restart the game while playing if you want to make a better result-----!> 
+<div class="restart" onclick=startGame()>
+        		<i class="fa fa-repeat"><h4>Restart</h4></i>
+        	</div>
+<!--A button to go back to the start page, so its easy for the user to change theme or to get to the how to play instructions-->
 
+<a href="index.html"><button class="button">Go back to main menu</button></a>
 
-      <!--A button to go back to the start page, so its easy for the user to change level or to get to the how to play instructions-->
-      
-      <a href="index.html" id="buttonback"><button class="button">Go back to main menu</button></a>
-      
-      
-      </section>
+</section>
+       
+ <!-- This popup will show up after the game is finished and it will show the player all the moves that has being made and if you want to play again or go back to main menu -->
+    
+       <div id="popup1" class="overlay">
+           <div class="popup">
+                <h2>Congratulations</h2>
+                <div class="content-1">
+                    Congratulations you're a winner! 
+                </div>
+                <div class="content-2">
+                    <p>You made <span id=finalMove> </span> moves </p>
+                    <p>in <span id=totalTime> </span> </p>
+                    <p>Rating:  <span id=starRating></span></p>
+                    
+                </div>
+               
+                <button id="play-again"onclick="playAgain()">
+                    Play again</a>
+               
+                </button>
+            </div>
+        </div>
+
+    </div>
+
 
       <!------Javascript------>
 
