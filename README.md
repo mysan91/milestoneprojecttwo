@@ -72,12 +72,12 @@ As a user, I want to have fun.
 
 
 ### User Requirements 
-*Having a good structure. 
-*Visually appealing.
 * It has to be fun 
 * Possibility to see how many moves you made during the game.  
 * Possibility to see how much time spent on each game.
 * Easy to navigate.
+* Having a good structure.
+* Visually appealing. 
 
 ### Design Choices 
 * I wanted to have a easy structure on the webpage. 
@@ -162,7 +162,7 @@ The following steps i made to deploy the project on to the github page.
 4. Scroll down to the Github pages under the source section. 
 5. Click on the none bar and change it to Master.
 6. Save the changes! 
-7. The page then did refresh and the page is published at https://mysan91.github.io/Milestoneprojecttwo/ 
+7. The page then did refresh and the page is published at https://mysan91.github.io/milestoneprojecttwo/
 
 ## Credits
 
