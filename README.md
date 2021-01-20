@@ -29,6 +29,12 @@ After this process i did the media so the game can be played on different screen
 
 ## UX
 
+A simple and clean looking website that introduces a singel player memory with 3 different themes. 
+
+A clean, fun and simple looking game. 
+The images is all the same sizes in all 3 themes. 
+When a player is finished with the game a popup will show with the timing and how many moves. In the poput you can also chose to play again or go to the main meny. 
+
 ### Project Goals
 
 
