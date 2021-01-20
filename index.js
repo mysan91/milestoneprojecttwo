@@ -73,6 +73,34 @@ function shuffle() {
 
 
 
+// Move counter function
+let moves = 0;
+let counter = document.querySelector('.moves');
+function moveCounter() {
+    moves++;
+    counter.innerHTML = moves + ' moves'; 
+};
+
+//The Timer functions 
+let time = 0;
+let timer;
+function startTimer() {
+    timer = setInterval(function() {
+    time++;
+    minutes = ('0' + Math.floor(time / 60)).slice(-2);
+    seconds = ('0' + time % 60).slice(-2); 
+    document.querySelector('.timer').innerHTML = minutes + ':' + seconds;
+  }, 1000);
+}
+
+//Victory popup when the game is complete 
+
+ function victoryPopUp(moves) {
+    let popUp = document.querySelector('.popUp');
+        popUp.style.visibility = 'visible';
+        popUp.querySelector('.popUpTime').innerHTML = 'You won the game in ' + minutes + ' mins and ' + seconds + ' secs!';
+        popUp.querySelector('.popUpMoves').innerHTML = 'You made ' + moves + ' moves!';
+};
 
 
 
