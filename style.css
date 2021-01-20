@@ -75,28 +75,25 @@ body {
 }
 
 
-.header {
+#header {
     height: 20px;
     position: relative;
 }
 
 
-.timer {
-    float: right;
-    padding: 5px;
-    color: yellow; 
+#timer {
+    right: 0;
+    padding: 0 25px 5px 0;
 }
 
-.moves {
-   float: right;
-    padding: 5px;
-    color: yellow; 
+#moves {
+    right: 0;
+    padding:  0 25px 5px 0;
 }
 
-.btn-warning {
-    float: left;
-    padding: 5px;
-    color: yellow; 
+#btn-warning {
+    left: 0;
+    padding:  0 25px 5px 0;
 }
 
 
