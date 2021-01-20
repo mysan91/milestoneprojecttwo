@@ -76,7 +76,7 @@ body {
 
 
 #header {
-    height: 20px;
+    height: 40px;
     position: relative;
 }
 
@@ -264,17 +264,17 @@ h5 {
   /*---------------------------- Media for iphone 7/8/9 and Ipad and ipad pro----------------------*/ 
 
 
-@media (min-width: 414px) {
+@media (max-width: 736px) {
 
     .content {
-        width: 65vw;
+        width: 70vw;
         margin: 5px;
         
     }
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 1024px) {
 
     .content {
         width: 80vw;
@@ -282,7 +282,7 @@ h5 {
     }
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1366px) {
 
     .content {
        width: 90vw;
