@@ -101,9 +101,22 @@ function startTimer() {
         popUp.querySelector('.popUpMoves').innerHTML = 'You made ' + moves + ' moves!';
 };
 
+// New game 
+function clearBoard(game)
+    {
+        //Remove all remaining cards from here
+        document.getElementById(game).innerHTML = "";
+        //document.getElementById(cards).innerHTML = "";
+        //document.getElementById(card).innerHTML = "";
 
 
 
+    }
+
+function newGame()
+    {
+        gameStart();
+    }
 
 
 
