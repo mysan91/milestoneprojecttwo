@@ -1,45 +1,112 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<img src="https://raw.githubusercontent.com/mysan91/Milestoneproject2/master/images/memory.JPG" style="width:850px">
 
-Welcome mysan91,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+# Memory Game
 
-## Gitpod Reminders
+## About 
+This memory was created for people who like memory games and for people who want to be able to train their memory.
+The goal of this site was to build a fun and good looking game that is fun to play. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+I like memory games myself and wanted to create a game with themes that I like. 
 
-`python3 -m http.server`
+### Creating 
 
-A blue button should appear to click: *Make Public*,
+I started by figuring out how I wanted the game to be structured and what different levels that would be included.
 
-Another blue button should appear to click: *Open Browser*.
+Since I myself prefer to be able to choose which level I want at each time I drive, I chose to have a menu where you can choose which level suits you best.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+I decided to start with 3 different levels. The first level is with 16 cards and the second level is with 24 cards and the last is with 36 cards.
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The first level is done with different programming languages and the second was with different Starwar characters. And the last one was with icons that I downloaded from Iconfinder.com
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+I started by building the first page and also the page with How to play the game. Then I started with level 1 and chose the pictures that would be included.
+Then I built the structure of the game and made sure the page was responsive. Then I went on and did the same at level 2 and 3.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## UX
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Project Goals
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### User Goals 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+ 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### User Stories
+    
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
+### Site Owner Goals
+ 
 
-Happy coding!
+### User Requirements 
+
+
+### Design Choices 
+
+
+## Features
+
+
+ ### Features that is implemented:
+ * 	HTML
+ HTML was used for the structure of the website.
+*  Javascript 
+    Javascript was used for the functions on the memory game. And also the restart button and the Scoreboard. 
+ * CSS 
+    CSS was used to style the website and change sizes, color, background and positions of different items where i did not use bootstrap.
+ * 	Boostrap 4
+    Bootstrap 4 was used for the info page and the how to play page
+  *	Google Chrome inspect Tool
+ Google Chrome Inspect and Developer tools was used for examining the website and how it worked on different screens. 
+
+
+ ###### Features that will be implemented in the future: 
+ * More levels of gaming 
+  * A scoreboard on the highest score
+  * Contact details is there is an issue on the game or changes that users would see. 
+
+## Technologies used 
+
+### Languages 
+* HTML 
+* CSS
+* Bootstrap
+* Javascript
+
+### Tools & Libraries 
+* Git 
+* Font-Awsome
+* Bootstrap
+
+
+
+## Testing
+I have been coding the whole project in visual studios due to some problems with the commit function. When i have been trying to commit code it just says that its up to date and no git commit/push can be done.  
+
+<img src="" style="width:500px">
+
+
+### Testing Responsiveness On Different Devices
+
+* Hp laptop
+* Ipad 
+* Iphone 7/8/9 
+
+
+
+
+## Deployment 
+The fallowing steps i made to deploy the project on to the github page.
+I logged in to my github account and then selected my repository. 
+I then chosed my project repostory mysan91/Milestoneprojectone and then at the top there is a setting button that i clicked. 
+Then i scrolled down to the Github Pages and under the source section i clicked on the NONE and in the dropdown i selected Master and then clicked the save button. 
+The page did refresh and i got message that my page is published at https://mysan91.github.io/Milestoneprojectone/ 
+
+
+## Credits
+https://www.iconfinder.com/ 
+
+
