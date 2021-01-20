@@ -242,20 +242,18 @@ h4 {
 
 .howto {
     background: black;
+     height: 70vh;
+     width: 70%;
+        
 }
 
 h5 {
-  font-size: 30px;
+  font-size: 25px;
   color: yellow;
   font-family: sans-serif;   
 }
 
 
-h6 {    
-   font-size: 25px;
-  color: yellow;
-  font-family: sans-serif;
-}
 
 
 
