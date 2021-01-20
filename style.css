@@ -65,27 +65,37 @@ body {
     transform: rotateY(180deg);
   }
 
-  /*--------Scoreboard-----*/
-
-.score-panel {
-     position: relative;
-  height: 100vh;
-  width: 100%;
-  margin: 5px auto 5px auto;
-  perspective: 1000px;
-  background: rgba(37, 127, 211, 0.623);
+.content {
+    position: relative;
+    background-color: blue;
+    width: 70vw;
+    min-height: 100vh;
+    margin: 0 auto;
+   
 }
- 
-.moves {
-float:left;
+
+
+.header {
+    background-color: blue;
+    height: 50px;
+    position: relative;
+    border-bottom: 2px yellow;
+}
+
+
+.timer {
+    left: 0;
+    padding: 0 30px 5px 0;
 }
 
 .timer {
-float:right;
+    right: 0;
+    padding: 0 30px 5px 0;
 }
 
-
-
+.btn-warning {
+    margin-top: 15px;
+}
 
 
   /*----------------------Index page----------------*/
