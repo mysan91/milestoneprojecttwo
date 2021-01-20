@@ -39,7 +39,29 @@ When a player is finished with the game a popup will show with the timing and ho
 
 
 ### User Goals 
+As a user, I want a simple and clean looking website.
 
+As a user, I want an easy to navigate website. 
+
+As a user, I want to be able to use it on desktop, tablet and mobile devices.
+
+As a user, I want to see how many moves i have made.
+
+As A user, I want to have a timer when playing the game. 
+
+As a user, I want to be able to restart the game.
+
+As a user, I want to be able to go to main meny is i dont like the game or want to change. 
+
+As a user, I want a poput when the game is done to see the scores. 
+
+As a user, I want good content and good pictures. 
+
+As a user, I want simple instructions how to play the game. 
+
+As a user, I want to train my memory skills.
+
+As a user, I want to have fun. 
  
 
 ### User Stories
@@ -60,7 +82,7 @@ When a player is finished with the game a popup will show with the timing and ho
 
  ### Features that is implemented:
  * 	HTML
- HTML was used for the structure of the website.
+  HTML was used for the structure of the website.
 *  Javascript 
     Javascript was used for the functions on the memory game. And also the restart button and the Scoreboard. 
  * CSS 
@@ -69,6 +91,7 @@ When a player is finished with the game a popup will show with the timing and ho
     Bootstrap 4 was used for the info page and the how to play page
   *	Google Chrome inspect Tool
  Google Chrome Inspect and Developer tools was used for examining the website and how it worked on different screens. 
+ 
 
 
  ###### Features that will be implemented in the future: 
@@ -85,9 +108,11 @@ When a player is finished with the game a popup will show with the timing and ho
 * Javascript
 
 ### Tools & Libraries 
-* Git 
 * Font-Awsome
 * Bootstrap
+* Gitpod
+* Github
+* Visual studios
 
 
 
