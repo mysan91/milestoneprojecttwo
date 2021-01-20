@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/mysan91/Milestoneproject2/master/images/memory.JPG" style="width:850px">
+<img src="https://raw.githubusercontent.com/mysan91/milestoneprojecttwo/master/images/supermario/memor.JPG" style="width:850px">
 
 
 # Memory Game
