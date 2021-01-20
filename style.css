@@ -81,19 +81,11 @@ body {
 }
 
 
-.timer {
-    right: 5px;
-    padding: 0 25px 5px 0;
-}
-
-.moves {
-    right: 5px;
-    padding:  0 25px 5px 0;
-}
 
 .btn-warning {
     left: 10px;
-    padding:  0 25px 5px 0;
+    padding:5px;
+    margin-top:10px;
 }
 
 
