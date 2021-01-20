@@ -196,9 +196,9 @@ button {
   appearance: none;
   overflow: hidden;
   border: 10px;
-  padding: 5px;
+  padding: 10px;
   background-color: transparent;
-  font-size: 16px;
+  font-size: 20px;
   color: yellow;
   transition: 0,5s; 
   text-align: center;
@@ -209,7 +209,6 @@ button {
 }
 
 button:after {
-  background: green;
   position: absolute;
   top: 0;
   left: 0;
