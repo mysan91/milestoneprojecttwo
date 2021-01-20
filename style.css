@@ -238,7 +238,24 @@ h4 {
 }
 
 
+  /*----------------------------How to page-----------------------*/ 
 
+.howto {
+    background: black;
+}
+
+h5 {
+  font-size: 20px;
+  color: yellow;
+  font-family: sans-serif;   
+}
+
+
+h6 {    
+   font-size: 15px;
+  color: yellow;
+  font-family: sans-serif;
+}
 
 
 
