@@ -86,6 +86,9 @@ As a user, I want to have fun.
 
 
  ### Features that is implemented:
+ * Apealling front page 
+ * Different choices on themes for the user
+ 
  * 	HTML
   HTML was used for the structure of the website.
 *  Javascript 
@@ -114,6 +117,7 @@ As a user, I want to have fun.
 * CSS
 * Bootstrap
 * Javascript
+* Jquery 
 
 ### Tools & Libraries 
 * Font-Awsome
@@ -121,40 +125,34 @@ As a user, I want to have fun.
 * Gitpod
 * Github
 * Visual studios
-* https://jigsaw.w3.org/css-validator/ 
-* 
+* https://jigsaw.w3.org/css-validator/ to check the CSS code
+* https://validator.w3.org/ to check the Html Code
 
 
 
 ## Testing
-I have been coding the whole project in visual studios due to some problems with the commit function. When i have been trying to commit code it just says that its up to date and no git commit/push can be done. Some commits works but not all. 
-which made it difficult to work with. 
+All the code on the site has been tested both in the html validator and the css validator. 
 
-There was a big problem with the commit function and it ended up that I got help with it and have saved the code in the manual mode on github.
-And then i started a new repo and tried to copy the code from the first repo that dident commit. And it now works better. 
-I created the program in Visual studios then I have also used gitpod as best I can, partly for troubleshooting the code.
+When testing the Css code i used https://jigsaw.w3.org/css-validator/ and two errors accured. I did have a unvalid class on one of the buttons. The error was fixed. 
 
-when testing the Css code i used https://jigsaw.w3.org/css-validator/ and two errors accured. I did have a unvalid class on one of the buttons. The error was fixed. 
+When testing the Html code on the https://validator.w3.org/ 13 different errors were displayed, The errors was fixed and the code was testet again without any errors. 
 
-For testing the HTML code i got some errors when i was able to get into gitpod. The errors that came up was a few div end tags missing. 
-Those errors was fixed. 
-
-
-
-
-
+The site was then viewed and tested on the fallowing browsers:
+* Google Chrome - The page was testet with the inspect tool and the site worked well on different screen sizes.
+* Microsoft edge - The page worked well and everythin worked as expected. 
 
 
 
 
 ### Testing Responsiveness On Different Devices
 
+The game was tested on the different divices and worked as expected. 
+
 * Hp laptop
-* Ipad 
-* Ipad pro 
+* Apple Ipad 
 * 28 inch samsung screen.
-
-
+* Huawei p30 pro
+* Apple Iphone 8 
 
 
 ## Deployment 
@@ -167,11 +165,7 @@ The following steps i made to deploy the project on to the github page.
 6. Save the changes! 
 7. The page then did refresh and the page is published at https://mysan91.github.io/milestoneprojecttwo/
 
-## Credits
-
-for the icons in the game. 
-https://www.iconfinder.com/ 
-
+## Media 
 
 Youtube Tutorial for how do build a javascript game. 
 
@@ -179,8 +173,16 @@ https://www.youtube.com/watch?v=ZniVgo8U7ek
 
 https://www.youtube.com/watch?v=tjyDOHzKN0w
 
+
+## Credits 
+For the icons in the game. 
+https://www.iconfinder.com/ 
+
 For the wallpapers
 https://unsplash.com/wallpapers
 
 FOr help when i got stuck and also to see how other people solved the memory game.
 https://stackoverflow.com/
+
+
+
