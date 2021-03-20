@@ -125,34 +125,18 @@ h2 {
   width: 100%;
 }
 
-h3 {
 
-    font-size: 30px;
-    color: yellow;
-    font-family: sans-serif;
-    padding: 0;
-    text-align: center;
-    margin-top: 15px;
-    padding: 10px;
-    text-shadow: 5px 5px 5px rgb(216, 133, 9);
-}
-
-h4 {
-  font-size: 15px;
-  color: white;
-
-}
 
 /*-----------------The index page button---------------*/
 
-a {
+li {
   margin: 30px;
   cursor: pointer;
   position: relative;
   appearance: none;
   overflow: hidden;
-  border: 10px;
-  padding: 5px;
+  border: 40px;
+  padding: 40px;
   background-color: transparent;
   font-size: 30px;
   color: yellow;
