@@ -145,7 +145,7 @@ h4 {
 
 /*-----------------The index page button---------------*/
 
-li {
+a {
   margin: auto;
   cursor: pointer;
   position: relative;
