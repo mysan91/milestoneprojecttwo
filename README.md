@@ -93,8 +93,7 @@ As a user, I want to have fun.
   HTML was used for the structure of the website.
 *  Javascript 
     Javascript was used for the functions on the memory game. And also the restart button and the Scoreboard. 
- * CSS 
-    CSS was used to style the website and change sizes, color, background and positions of different items where i did not use bootstrap.
+ * CSS was used to style the website and change sizes, color, background and positions of different items where i did not use bootstrap.
  * 	Boostrap 4
     Bootstrap 4 was used for the info page and the how to play page
   *	Google Chrome inspect Tool
@@ -124,7 +123,6 @@ As a user, I want to have fun.
 * Bootstrap
 * Gitpod
 * Github
-* Visual studios
 * https://jigsaw.w3.org/css-validator/ to check the CSS code
 * https://validator.w3.org/ to check the Html Code
 
@@ -141,7 +139,8 @@ The site was then viewed and tested on the fallowing browsers:
 * Google Chrome - The page was testet with the inspect tool and the site worked well on different screen sizes.
 * Microsoft edge - The page worked well and everythin worked as expected. 
 
-
+When the prototype of the code was complete, the page was tested hand on to make sure that the site worked as expected.
+Once inside the selected theme, it was easy to go back to the main menu to select a new theme or read the instructions again. It was easy to navigate back and forth.
 
 
 ### Testing Responsiveness On Different Devices
