@@ -146,7 +146,7 @@ h4 {
 /*-----------------The index page button---------------*/
 
 a {
-  margin: auto;
+  margin: 30px;
   cursor: pointer;
   position: relative;
   appearance: none;
@@ -165,7 +165,7 @@ a {
 }
 
 a:after {
-  background: green;
+  background: red;
   position: absolute;
   top: 0;
   left: 0;
@@ -177,12 +177,9 @@ a:after {
 
 a:hover {
   transform: scale(1.6, 1.6);
-  color: black;
+  color: white;
 }
 
-a:hover:after {
-  transform: translateY(0);
-}
 
 
 
