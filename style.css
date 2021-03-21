@@ -107,6 +107,7 @@ h1 {
   
 }
 
+
 ul {
 text-align: center;
 }
@@ -191,12 +192,27 @@ a:hover {
   }
   
   h5 {
-    font-size: 25px;
+    font-size: 15px;
     color: yellow;
     font-family: sans-serif;   
      text-align: center;
   }
   
+  
+h2 {
+    color: yellow;
+    text-align: center;
+    text-shadow: 1px 1px 2px ;
+    font-size: 60px;
+    font-family: sans-serif;
+    padding: 5px;
+    text-shadow: 5px 5px 5px rgb(216, 133, 9);
+    padding: 20px;
+    margin-top: 100px;
+    
+ 
+}
+
 
  
     /*----------------------------Media screen iphone 6/7/8----------------------*/ 
@@ -261,6 +277,8 @@ a:hover {
       }
   
   }
+
+
 
 
 
