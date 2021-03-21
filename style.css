@@ -129,7 +129,16 @@ h2 {
 
 /*-----------------The index page button---------------*/
 
+ul {
+text-align: center;
+}
+
 li {
+display: inline-block;
+}
+
+
+ a {
   margin: 30px;
   cursor: pointer;
   position: relative;
@@ -148,6 +157,8 @@ li {
 
 }
 
+
+}
 a:after {
   background: red;
   position: absolute;
