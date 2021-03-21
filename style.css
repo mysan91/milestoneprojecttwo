@@ -160,8 +160,8 @@ a:after {
 }
 
 a:hover {
-  transform: scale(1.6, 1.6);
-  color: white;
+  transform: scale(2.6, 2.6);
+  color: yellow;
 }
 
 
