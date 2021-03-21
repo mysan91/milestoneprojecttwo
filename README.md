@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/mysan91/milestoneprojecttwo/master/images/supermario/memor.JPG" style="width:850px">
+<img src="https://raw.githubusercontent.com/mysan91/milestoneprojecttwo/master/images/supermario/memor.JPG" style="width:550px">
 
 
 # Memory Game
@@ -140,9 +140,11 @@ The site was then viewed and tested on the fallowing browsers:
 * Microsoft edge - The page worked well and everythin worked as expected. 
 
 When the prototype of the code was complete, the page was tested hand on to make sure that the site worked as expected.
+Once inside the selected theme, it was easy to go back to the main menu to select a new theme or read the instructions again. It was easy to navigate back and forth.
+
 First i tried the index.html file on ipad and Iphone to se that the text was good and adjusted well to the screen size. 
 When the index.html worked on Ipad/Iphone 6/7/8 and Iphone X i started testing the Programming level. 
-Once inside the selected theme, it was easy to go back to the main menu to select a new theme or read the instructions again. It was easy to navigate back and forth.
+The programming level site was tested on Google inspect tool and worked on the different screen options. 
 
 
 ### Testing Responsiveness On Different Devices
@@ -151,9 +153,8 @@ The game was tested on the different divices and worked as expected.
 
 * Hp laptop
 * Apple Ipad 
-* 28 inch samsung screen.
-* Huawei p30 pro
-* Apple Iphone 8 
+* Apple Iphone 6/7/8
+* Iphone X  
 
 
 ## Deployment 
