@@ -43,7 +43,7 @@ body {
   #level3 {
     background-image: url("https://raw.githubusercontent.com/mysan91/milestoneprojecttwo/master/images/supermario/wallpaper.png");
      background-size: cover;
-  
+  display: flex;
   }
 
 
@@ -250,13 +250,13 @@ h2 {
   
       .content {
           margin-top: 15vw;
-          width: 150vw;
+          width: 170vw;
           
       }
   
       .memory-game {
           height: 120vw;
-          width: 120vw;
+          width: 130vw;
       }
 
   }
