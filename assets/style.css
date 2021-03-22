@@ -1,0 +1,288 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+body {
+  font-family: sans-serif;
+  height: 80vh;
+
+}
+
+
+
+
+/*------The backgrounds images is set with cover so its adjusts to the pages.----*/
+
+
+#indexpage {
+    background-image: url("https://raw.githubusercontent.com/mysan91/Milestoneproject2/master/images/index/index.jpg");
+    background-size: cover; 
+   
+}
+
+#level1 {
+ background-image: url("https://raw.githubusercontent.com/mysan91/Milestoneproject2/master/images/level1/background.jpg");
+ background-size: cover;
+
+
+
+ display: flex;
+  }
+    
+
+  #level2 {
+ background-image: url("https://raw.githubusercontent.com/mysan91/Milestoneproject2/master/images/level2/starwars.jpg");
+ background-size: cover;
+ 
+ display: flex;
+  }
+
+  #level3 {
+    background-image: url("https://raw.githubusercontent.com/mysan91/milestoneprojecttwo/master/images/supermario/wallpaper.png");
+     background-size: cover;
+  
+  }
+
+
+  /*----------------------------Generall for alla pages-----------------------*/ 
+
+ 
+
+  .front-face,
+  .back-face {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    position: absolute;
+    border-radius: 5px;
+    background: rgba(37, 127, 211, 0.623);
+    backface-visibility: hidden;
+  
+  }
+  
+  .front-face {
+    transform: rotateY(180deg);
+  }
+
+.content {
+    position: relative;
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+
+.header {
+    height: 50px;
+    position: relative;
+}
+
+
+
+.btn-warning {
+    left: 10px;
+    padding:10px;
+    margin-top:10px;
+}
+
+
+  /*----------------------Index page----------------*/
+
+
+h1 {
+     color: yellow;
+     text-align: center;
+     text-shadow: 1px 1px 2px ;
+     font-size: 85px;
+     font-family: sans-serif;
+     padding: 5px;
+     text-shadow: 5px 5px 5px rgb(216, 133, 9);
+     padding: 20px;
+     margin-top: 100px;
+     
+  
+}
+
+
+ul {
+text-align: center;
+}
+
+
+li {
+
+    padding: 25px;
+    margin: 50px;
+
+}
+
+
+ a {
+  cursor: pointer;
+  position: relative;
+  border: 70px;
+  padding: 35px;
+  background-color: transparent;
+  font-size: 25px;
+  color: yellow;
+  text-align: center;
+  -webkit-box-shadow: 2px 2px 2px 0px yellow, inset 2px 2px 10px 0px #000000, 5px 5px 15px 5px rgba(255,139,253,0); 
+ 
+}
+
+
+a:hover {
+  transform: scale(1.6, 1.6);
+  color: white;
+}
+
+
+
+/*--------------The memory game cards-----------*/
+
+.memory-game {
+    position: relative;
+    height: 89vh;
+    width: 100vh;
+    margin: 5px auto 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+   
+  }
+  
+  .memory-card {
+    display: flex;
+    margin: 5px;
+    height: calc(20% - 10px);
+    width: calc(16.66% - 10px);
+    border-radius: 5px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transform: scale(1);
+    transition: transform .5s;
+  }
+  
+  .memory-card:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+  }
+  
+  /*-------Making the card turn 180 degrees when you push on in-----*/ 
+  
+  .memory-card.flip {
+    transform: rotateY(180deg);
+  }
+  
+  
+    /*----------------------------How to page-----------------------*/ 
+  
+  .howto {
+      position: relative;
+      width: 70vw;
+      min-height: 90vh;
+      margin: 0 auto;
+      text-align: center;
+          
+  }
+  
+  h5 {
+    font-size: 15px;
+    color: yellow;
+    font-family: sans-serif;   
+     text-align: center;
+  }
+  
+  
+h2 {
+    color: yellow;
+    text-align: center;
+    text-shadow: 1px 1px 2px ;
+    font-size: 60px;
+    font-family: sans-serif;
+    padding: 5px;
+    text-shadow: 5px 5px 5px rgb(216, 133, 9);
+    padding: 20px;
+    margin-top: 100px;
+    
+ 
+}
+
+
+ 
+    /*----------------------------Media screen iphone 6/7/8----------------------*/ 
+
+@media screen and (max-width: 600px) {
+    .list a {
+      float: none;
+      width: 100%;
+    }
+
+    h1 {
+        width: 100%;
+        float: none;
+    }
+
+    .content {
+        margin-top: 10vw;
+        width: 150vw;
+        
+    }
+
+    .memory-game {
+        height: 100vw;
+        width: 100vw;
+    }
+
+}
+
+/*----------------------------Media screen iphone Iphone X---------------------*/ 
+@media screen and (max-width: 850px) {
+    .list a {
+        float: none;
+        width: 50%;
+      }
+  
+      .content {
+          margin-top: 15vw;
+          width: 150vw;
+          
+      }
+  
+      .memory-game {
+          height: 120vw;
+          width: 120vw;
+      }
+
+  }
+
+/*----------------------------Ipad--------------------*/ 
+
+@media (max-width: 1024px) {
+   
+      .content {
+          margin-top: 5vw;
+          width: 200vw;
+          
+      }
+  
+      .memory-game {
+          height: 90vw;
+          width: 90vw;
+      }
+  
+  }
+
+
+
+
+
+
+
+
+
