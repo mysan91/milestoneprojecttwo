@@ -137,7 +137,9 @@ When testing the Html code on the https://validator.w3.org/ 13 different errors 
 
 The site was then viewed and tested on the fallowing browsers:
 * Google Chrome - The page was testet with the inspect tool and the site worked well on different screen sizes.
-* Microsoft edge - The page worked well and everythin worked as expected. 
+* Microsoft edge - The page worked well and everything worked as expected. 
+
+Some times is feels lite the index.html is bugging on the mobile screen and dosent work but if i refresh i works. 
 
 When the prototype of the code was complete, the page was tested hand on to make sure that the site worked as expected.
 Once inside the selected theme, it was easy to go back to the main menu to select a new theme or read the instructions again. It was easy to navigate back and forth.
