@@ -169,6 +169,16 @@ The following steps i made to deploy the project on to the github page.
 6. Save the changes! 
 7. The page then did refresh and the page is published at https://mysan91.github.io/milestoneprojecttwo/
 
+### Run the code locally
+1. On the github page navigate to the main page of the repository you want to run. 
+2. Above the list of files press on the code button with the downloadinglink.  
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click on the https link and the link will be copyed. If you want to clone the repository using SSH or Github Cli click on the link tap ob the respective tabs. 
+4. After you have copy the link go to Git Bash and open. 
+5. Change the current working directory to the location where you want to put the cloned directory. 
+6. Type git clone and paste the repository URL.
+10. Press enter to create the local clone. 
+
+
 ## Media 
 
 Youtube Tutorial for how do build a javascript game. 
